@@ -7,3 +7,5 @@ Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'Valloric/YouCompleteMe', { 'do': './install.sh'} 
 " Add plugins to &runtimepath 
 call plug#end() 
+
+set mouse-=a

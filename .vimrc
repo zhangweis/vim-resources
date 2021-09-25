@@ -5,6 +5,7 @@
   endif
 
 call plug#begin('~/.vim/plugged')
+Plug 'https://github.com/tpope/vim-surround.git'              
 Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 

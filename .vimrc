@@ -8,7 +8,9 @@ call plug#begin('~/.vim/plugged')
 Plug 'https://github.com/tpope/vim-surround.git'
 Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
-
+let g:ctrlp_custom_ignore = {
+    \ 'dir': 'node_modules\|packaged\|dist',
+    \ }
 call plug#end()
 set ts=2
 set shiftwidth=2

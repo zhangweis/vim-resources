@@ -18,4 +18,4 @@ set shiftwidth=2
 set expandtab
 set mouse-=a
 map <C-x> <C-w>
-map <C-j> :NERDTreeToggle<CR>
+map <C-k> :NERDTreeToggle<CR>

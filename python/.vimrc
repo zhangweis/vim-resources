@@ -5,4 +5,4 @@ Plug 'scrooloose/nerdtree'
 call plug#end()
 set mouse-=a
 map <C-x> <C-w>
-map <C-j> :NERDTreeToggle<CR>
+map <C-k> :NERDTreeToggle<CR>
